@@ -1,0 +1,10 @@
+Design Choices
+I wanted to make sure to account for non-numeric inputs and inputs that are greater than the data's
+length. I decided to send the whole data set if either of these conditions were met, however, I may
+want to reconsider sending all of the data if I had a larger data set. Also currently the returned facts
+are not random and always start from the first element in the data array. This can be achieved relatively
+easily.
+
+Challenges Faced
+Not many, deciding the best way to handle invalid input gave me the most pause, but I am satisfied with
+my solution.
